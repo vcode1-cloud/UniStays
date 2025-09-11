@@ -1,5 +1,5 @@
 import React from 'react'
-import Carousel from '../components/carousel'
+import Carousel from '../components/Carousel'
 import Cards from '../components/Cards'
 import Midsec from '../components/Midsec'
 import Midsec1 from '../components/Midsec1'
@@ -25,7 +25,7 @@ const HomeTop = () => {
         <Carousel images={slides}/>
         <Cards img={imgs}/>
         </div>
-        <hr class="border-t border-gray-300 mt-10"/>
+        <hr className="hidden md:block border-t border-gray-300 mt-10"/>
         <Midsec/>
         <Midsec1/>
     </div>
