@@ -2,6 +2,7 @@ import React from 'react'
 import HomeTop from '../container/HomeTop'
 import Marque from '../components/Marque'
 import Footer from '../components/footer'
+import Explore from '../components/Explore'
 const Home = () => {
 
 
@@ -14,11 +15,12 @@ const Home = () => {
     "https://www.stanzaliving.com/_next/image?url=https%3A%2F%2Fasset-cdn.stanzaliving.com%2Fstanza-living%2Fimage%2Fupload%2Fh_174%2Cf_auto%2Cq_auto%2Fv1584370779%2FNewWebsite%2Fnew_fortune_2x.png&w=828&q=75"
   ]
 
+  
   return (
     <div className='overflow-x-hidden p-0 m-0'>
       <HomeTop/>
       <Marque img={img}/>
-      <Footer/>
+      <Footer/> 
     </div>
   )
 }

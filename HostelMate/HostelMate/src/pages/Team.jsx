@@ -9,4 +9,3 @@ const Team = () => {
 }
 
 export default Team
-Team
