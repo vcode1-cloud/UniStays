@@ -30,7 +30,7 @@ const Carousel = ({ images, interval = 3000 }) => {
 
   return (
     <div className="">
-        <div className="w-full md:w-[60vw] mt-10 md:-mt-2 overflow-hidden md:ml-10">
+        <div className="w-full md:w-[60vw] mt-12 md:-mt-2 overflow-hidden md:ml-10">
         {/* Carousel wrapper */}
         <div className="relative h-80 md:h-140 w-full">
             {images.map((src, index) => (

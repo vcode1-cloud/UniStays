@@ -6,6 +6,9 @@ const footer = () => {
       <footer className=" dark:bg-gray-900">
         <div className="mx-auto w-full max-w-screen-xl">
           <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+            <div className=''>
+              <img className="md:h-60 mt-4 h-50" src="./img/US2.png" alt="" />
+            </div>
             <div>
               <h2 className="mb-6 text-lg font-semibold text-white uppercase dark:text-white">
                 Company
@@ -60,32 +63,13 @@ const footer = () => {
                 </li>
               </ul>
             </div>
-            <div>
-              <h2 className="mb-6 text-lg font-semibold text-white uppercase dark:text-white">
-                Download
-              </h2>
-              <ul className="text-gray-300 dark:text-gray-400 font-medium">
-                <li className="mb-4">
-                  <a className="hover:underline">iOS</a>
-                </li>
-                <li className="mb-4">
-                  <a className="hover:underline">Android</a>
-                </li>
-                <li className="mb-4">
-                  <a className="hover:underline">Windows</a>
-                </li>
-                <li className="mb-4">
-                  <a className="hover:underline">MacOS</a>
-                </li>
-              </ul>
-            </div>
           </div>
-          <div className="px-4 py-6 dark:bg-gray-700 md:flex md:items-center md:justify-between">
-            <span className="text-sm dark:text-gray-300 sm:text-center">
-              © 2025 <a href="https://flowbite.com/">HostelMate™</a>. All Rights
+          <div className="px-4 md:mx-0 py-6 dark:bg-gray-700 md:flex md:items-center md:justify-between justify-center">
+            <span className="flex justify-center text-sm dark:text-gray-300 sm:text-center">
+              © 2025 <a href="https://flowbite.com/">UniStays™</a>. All Rights
               Reserved.
             </span>
-            <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
+            <div className="flex -ml-2 justify-center mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
               <a className="hover:text-gray-300 dark:hover:text-white">
                 <svg
                   className="w-4 h-4"
