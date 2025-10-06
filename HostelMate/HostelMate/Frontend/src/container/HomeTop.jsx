@@ -19,7 +19,7 @@ const HomeTop = () => {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen md:pt-30 pt-20">
+    <div className="flex flex-col min-h-screen md:pt-40 pt-20">
       <div className="md:flex md:flex-row md:gap-15 md:items-center flex flex-col">
         <Carousel images={slides} />
         <Cards img={imgs} />

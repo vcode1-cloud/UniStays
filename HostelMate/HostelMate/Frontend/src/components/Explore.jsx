@@ -7,7 +7,7 @@ import Signin from '../explore/Signin'
 
 const Explore = ({ city, setLoading }) => {
   const navigate=useNavigate()
-  const city_names = ["DELHI", "BANGLORE","MUMBAI", "PUNE","CHENNAI"]
+  const city_names = ["DELHI","MUMBAI", "PUNE"]
 
   const [place, setPlace] = useState()
   const [formData, setFormData] = useState({})

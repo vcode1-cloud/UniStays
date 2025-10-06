@@ -6,6 +6,7 @@ import About from './pages/About'
 import Hostel from './explore/Hostel'
 import Team from './pages/Team'
 import Explore from './components/Explore'
+import Footer from './components/Footer'
 import { BounceLoader } from 'react-spinners'
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
         <Route path='/hostel' element={<Hostel/>}/>
         <Route path='/explore' element={<Explore city={cities} setLoading={setLoading}/>}/>
       </Routes>
+      <Footer/>
     </div>
   )
 }

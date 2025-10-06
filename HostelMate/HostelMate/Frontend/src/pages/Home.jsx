@@ -1,7 +1,6 @@
 import React from 'react'
 import HomeTop from '../container/HomeTop'
 import Marque from '../components/Marque'
-import Footer from '../components/footer'
 const Home = () => {
 
 
@@ -19,7 +18,6 @@ const Home = () => {
     <div className='overflow-x-hidden p-0 m-0'>
       <HomeTop/>
       <Marque img={img}/>
-      <Footer/> 
     </div>
   )
 }

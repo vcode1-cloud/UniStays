@@ -11,11 +11,11 @@ const Hostel = () => {
         <p>No hostels found.</p>
       ) : (
         hostels.map((hostel, key) => (
-          <div key={key} className="mb-6 m-4 p-4 border shadow-lg rounded-lg">
+          <div key={key} className="mb-6 m-4 p-4 border shadow-black/30 shadow-lg rounded-lg">
             <h1 className='text-2xl font-bold'>Hostel Name: {hostel.name}</h1>
             <h2 className='text-xl'>Location: {hostel.location}</h2>
-            <p className='text-lg text-gray-600'>Description: {hostel.description}</p>
-            <p className='text-lg text-gray-600'>Description: {hostel.price_per_person}</p>
+            <p className='text-lg text-gray-600'><span className='font-semibold'>Description:</span> {hostel.description}</p>
+            <p className='text-lg text-gray-600'><span className='font-semibold'>Price per person :</span> Rs.{hostel.price_per_person}/night</p>
           </div>
         ))
       )}
